@@ -1,0 +1,58 @@
+Day-1:
+
+Q1.Write a C Program to Print Welcome.
+
+Program:
+#include <stdio.h>
+int main() {
+    printf("Welcome");
+    return 0;
+}
+
+Q2.Write a C Program to Print the given word.
+
+Program:
+#include <stdio.h>
+int main() {
+    char word[50];
+    scanf("%s", word);
+    printf("Hello %s\n", word);
+    return 0;
+}
+
+Q3.Write a C Program to Print the given Message.
+Q4.Write a C Program to print the given integer number.
+Q5.Write a C Program to print the given fractional(float) number.
+Q6.Write a C Program to print the given fractional(float) number in 2 digit decimal format.
+
+Day-2:
+
+Q7.Write a C Program to print the ASCII value of a character.
+
+Program:
+#include <stdio.h>
+int main() {
+    char ch;
+    scanf("%c",&ch);
+    printf("ASCII value of %c = %d\n",ch,ch);
+    return 0;
+}
+
+
+Q8.Write a C Program to print the character for given ASCII value.
+Q9.Write a C Program to print two numbers with a tab space between them.
+
+
+Program:
+#include <stdio.h>
+int main() {
+    int a,b;
+    scanf("%d %d", &a,&b);
+    printf("%d\t%d\n",a,b);
+    return 0;
+}
+
+
+Q10.Write a C Program to print two numbers in two lines.
+Q11.Write a C Program to print the size of char, int, float and double.
+Q12.Write a C Program to print your marks in 5 subjects each on a new line.
